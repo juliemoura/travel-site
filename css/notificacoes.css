@@ -1,0 +1,36 @@
+
+.notificacao{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-size: 1.5rem;
+}
+
+article{
+    background: #fefefe;
+    padding: 2rem;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 4rem;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.titulo-not{
+    font-weight: bold;
+    text-align: center;
+}
+
+hr{
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.img{
+    margin-left: 2.5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}

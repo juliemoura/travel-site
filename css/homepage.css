@@ -1,0 +1,49 @@
+
+.promo{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.img{
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.titulo-h{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.subtitulo-h{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+hr{
+    width: 170px;
+    margin-bottom: 1rem;    
+}
+
+.regras{
+    box-sizing: border-box;
+
+    border-radius: 30px;
+    margin-bottom: 5rem;
+    padding: .5rem;
+}
+
+.imgsvg3{
+    width: 2rem;
+    margin-left: 69px;
+    margin-top: 2rem;
+}
+
+.imgsvg4{
+    width: 2rem;
+    margin-left: 69px;
+    margin-top: 2rem;
+}

@@ -1,0 +1,41 @@
+.cabecalho {
+    
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #6f6564;
+    padding: 10px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    max-height: var(--superior-navbar-height);
+}
+
+.cabecalho-menu {
+    background-color: #6f6564;
+    border: none;
+}
+
+.botao-logo{
+    background-color: #6f6564;
+    border: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6f6564;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.imgsvg{
+    width: 2rem;
+}
+

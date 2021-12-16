@@ -1,0 +1,56 @@
+
+.planos-titulo{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.titulo-plano{
+    font-size: 1.4rem;
+}
+
+.parag-plano{
+    font-size: 1rem;
+    text-align: center;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.check{
+    margin-left: -1rem;
+    margin-right: 10px;
+    width: 1.3rem;
+    padding-top: 0rem;
+}
+
+hr{
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.plano-cartao{
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #000000;
+    background-color: #fefefe;
+}
+
+article{
+    text-align: center;
+    width:80%;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.preco{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.pula-linha{
+    margin-bottom: 4rem;
+}

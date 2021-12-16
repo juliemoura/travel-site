@@ -1,0 +1,37 @@
+.promocoes-titulo{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.titulo-plano{
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+article{
+    text-align: center;
+    width:80%;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.plano-cartao{
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #000000;
+    background-color: #fefefe;
+}
+
+hr{
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.de{
+    margin-top: .5rem;
+    
+}

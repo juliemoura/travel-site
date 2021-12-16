@@ -1,0 +1,44 @@
+
+.fale-conosco{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-size: 1.5rem;
+}
+
+.titulo-fale{
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    padding-bottom: 1rem;
+}
+
+.numero{
+    text-align: center;
+    color: #9b6e64;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding-bottom: .5rem;
+}
+
+.fale-parag{
+    text-align: center;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+.btn-redes{
+    border: none;
+    background-color: #e5e4e4;
+    width: 50%;
+}
+
+.imgredes{
+    width: 200%;
+}
+
+ul li{
+    display: inline-block;
+    }

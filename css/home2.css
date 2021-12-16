@@ -1,0 +1,42 @@
+ul li{
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.lista{
+    margin-top: 2rem;
+}
+
+.item-lista{
+    margin-right: .5rem;
+}
+
+.titulo-viagem{
+    font-weight: bold;
+    padding-top: .3rem;
+}
+
+.iconezinho{
+    margin-top: .5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    width: 15%;
+}
+
+.next{
+    margin-bottom: 3rem;
+    margin-top: -11rem;
+    font-size: 20rem;
+    margin-left: 17rem;
+}
+
+.imgsvg-pass{
+    width: 2rem;
+}
+
+.botao-pass{
+    background-color: #e5e4e4;
+    border: none;
+}
+
