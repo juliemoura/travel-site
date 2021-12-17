@@ -27,12 +27,18 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-    background-color: #6f6564;
+    background-color: var(--nav-color);
     padding: 8px 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
     max-height: var(--superior-navbar-height);
 }
 
-
+.iconsnav{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    color: var(--svg-color);
+  }
 
 

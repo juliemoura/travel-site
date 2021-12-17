@@ -6,6 +6,11 @@
 
 }
 
+body.dark{
+	background-color: #000401;
+	color: #e5e8e8;
+}
+
 .input-padrao{  
 	display: block; /*bota tudo embaixo do outro*/
 	margin: 0 0 15px; /*afasta a label da caixinha de resposta*/
@@ -16,7 +21,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color: #e5e4e4;
+    background-color: var(--input-color);
     border-color: #000000;
     text-align: center;
 }

@@ -10,14 +10,14 @@
     justify-content: space-between;
     align-items: center;
 
-    background-color: #6f6564;
+    background-color: var(--nav-color);
     padding: 10px 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
     max-height: var(--superior-navbar-height);
 }
 
 .cabecalho-menu {
-    background-color: #6f6564;
+    background-color: var(--svg-fundo);
     border: none;
 }
 
@@ -30,12 +30,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6f6564;
+    background-color: var(--nav-color);
     padding: 8px 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
 
 .imgsvg{
+    font-size: 2rem;
     width: 2rem;
 }
 

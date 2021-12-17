@@ -7,9 +7,20 @@ em {
     font-style: italic;
 }
 
-body {
-    background-color: #e5e4e4;
+html {
+    --bg: #e5e4e4;
+    --color-text: #000000;
+    --input-color: #e5e4e4;
+    --nav-color: #6f6564;
+    --svg-color: #000000;
+    --svg-fundo: #6f6564;
+    --btn-color: #443d3d;
     font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--color-text);
 }
 
 main { 
@@ -43,7 +54,7 @@ main {
 .btn{
     margin-top: 3rem;
     width: 100%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 13px 48px; /*aumenta o tamanho da caixinha*/
     align-items: center;
     color: #fefefe;
