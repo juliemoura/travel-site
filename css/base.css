@@ -71,7 +71,7 @@ main {
 .btn-start{
     margin-bottom: 5rem;
     width: 70%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 10px; /*aumenta o tamanho da caixinha*/
     text-align: center;
     color: #fefefe;
@@ -83,7 +83,7 @@ main {
 .btn-ligar{
     margin-bottom: 2rem;
     width: 30%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 10px; /*aumenta o tamanho da caixinha*/
     text-align: center;
     color: #fefefe;
@@ -99,7 +99,7 @@ main {
     margin-top: 3rem;
     margin-bottom: 5rem;
     width: 100%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 13px 48px; /*aumenta o tamanho da caixinha*/
     align-items: center;
     color: #fefefe;
@@ -113,7 +113,7 @@ main {
     margin-top: 2rem;
     margin-bottom: 3rem;
     width: 50%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 13px 48px; /*aumenta o tamanho da caixinha*/
     align-items: center;
     color: #fefefe;
@@ -126,7 +126,7 @@ main {
 .btn-compras{
     margin-bottom: 5rem;
     width: 30%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 10px; /*aumenta o tamanho da caixinha*/
     text-align: center;
     color: #fefefe;
@@ -141,7 +141,7 @@ main {
 .btn-compras2{
     margin-bottom: -2rem;
     width: 40%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 10px; /*aumenta o tamanho da caixinha*/
     text-align: center;
     color: #fefefe;
@@ -157,7 +157,7 @@ main {
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 13px 48px; /*aumenta o tamanho da caixinha*/
     align-items: center;
     color: #fefefe;
@@ -171,7 +171,7 @@ main {
     margin-top: 1rem;
     margin-bottom: 5rem;
     width: 100%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 13px 48px; /*aumenta o tamanho da caixinha*/
     align-items: center;
     color: #fefefe;
@@ -184,7 +184,7 @@ main {
     margin-top: 1rem;
     margin-left: 2.5rem;
     width: 70%;
-    background-color: #443d3d;
+    background-color: var(--btn-color);
     padding: 13px 48px; /*aumenta o tamanho da caixinha*/
     align-items: center;
     color: #fefefe;
