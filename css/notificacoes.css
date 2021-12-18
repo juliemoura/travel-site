@@ -34,3 +34,24 @@ hr{
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
+
+.titulo-lembrete{
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.input-lembrete{  
+	display: block; /*bota tudo embaixo do outro*/
+	padding: 10px 25px; /*aumenta o tamanho da caixinha*/
+	width: 60%; /*aumenta a largura da caixinha*/
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fefefe;
+    border-color: #000000;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}

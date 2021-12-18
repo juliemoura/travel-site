@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale= 1.0">
-        <title>Home | Trip</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">      
-        <link href="css/reset.css" rel="stylesheet">
-        <link href="css/rodape.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link href="css/cadastro.css" rel="stylesheet">
-        <link href="css/cadastro2.css" rel="stylesheet">
-        <link href="css/cabecalho.css" rel="stylesheet">
-    </head>
 
-    <body>
-        
-        <header>
-            <div id="page"> 
-                <img src="img/certo.jpg" alt=""> 
-            </div>
-            <div class="cabecalho2">
-                <a href="homepage.html"><button class="cabecalho-menu"><img src="img/home.svg" class="imgsvg"></button><i></i></a>
-                <a href="login.html"><button class="cabecalho-menu"><img src="img/perfil.svg" class="imgsvg"></button><i></i></a>
-            </div>   
-              
-        </header>
-      
-        <main>
-            <h1 class="cadastro">Cadastro</h1>
-            <h1 class="cadastro2">Dados de endereço</h1>
-            <form>
-                <label for="endereco" class="titulo-cad">Endereço Completo</label> 
-                <input type="text" id="endereco" class="input-padrao" required>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale= 1.0">
+    <title>Home | Trip</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/cadastro.css" rel="stylesheet">
+    <link href="css/cadastro2.css" rel="stylesheet">
+    <link href="css/cabecalho.css" rel="stylesheet">
+</head>
 
-                <label for="cep" class="titulo-cad">CEP</label> 
-                <input type="number" id="cep" class="input-padrao" required placeholder="XXXXX-XXX">
+<body>
 
-                <label for="numero" class="titulo-cad">Número</label> 
-                <input type="number" id="numero" class="input-padrao" required>
+    <header>
+        <div id="page">
+            <img src="img/certo.jpg" alt="">
+        </div>
+        <div class="cabecalho2">
+            <a href="homepage.html"><button class="cabecalho-menu"><img src="img/home.svg"
+                        class="imgsvg"></button><i></i></a>
+            <a href="login.html"><button class="cabecalho-menu"><img src="img/perfil.svg"
+                        class="imgsvg"></button><i></i></a>
+        </div>
 
-                <label for="cidade" class="titulo-cad">Cidade</label> 
-                <input type="text" id="cidade" class="input-padrao" required>
+    </header>
 
-                <label for="endereco" class="titulo-cad">Estado</label> 
-                <select name="estados-brasil" class="input-padrao2">
-                    <option value="AC">Acre</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="DF">Distrito Federal</option>
-                    <option value="ES">Espírito Santo</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="PA">Pará</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PR">Paraná</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="TO">Tocantins</option>
-                </select>
+    <main>
+        <h1 class="cadastro">Cadastro</h1>
+        <h1 class="cadastro2">Dados de endereço</h1>
+        <form>
+            <label for="endereco" class="titulo-cad">Endereço Completo</label>
+            <input type="text" id="endereco" class="input-padrao" required>
+
+            <label for="cep" class="titulo-cad">CEP</label>
+            <input type="number" id="cep" class="input-padrao" required placeholder="XXXXX-XXX">
+
+            <label for="numero" class="titulo-cad">Número</label>
+            <input type="number" id="numero" class="input-padrao" required>
+
+            <label for="cidade" class="titulo-cad">Cidade</label>
+            <input type="text" id="cidade" class="input-padrao" required>
+
+            <label for="endereco" class="titulo-cad">Estado</label>
+            <select name="estados-brasil" class="input-padrao2">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
 
 
-            </form>
+        </form>
 
-            <a href="home.html"><button class="btn-proximo">Logar</button></a>
-        </main>
-        
-        
-        <footer class="cabecalho">
-            <a href="promocoes.html"><button class="cabecalho-menu"><img src="img/promocoes.svg" class="imgsvg"></button><i></i></a>
-            <a href="cadastro.html"><button class="cabecalho-menu"><img src="img/cadastro.svg" class="imgsvg"></button><i></i></a>
-            <a href="planos.html"><button class="cabecalho-menu"><img src="img/planos.svg" class="imgsvg"></button><i></i></a>
-            <a href="contato.html"><button class="cabecalho-menu"><img src="img/telephone.svg" class="imgsvg"></button><i></i></a>
-        </footer>
-    </body>
+        <a href="home.html"><button class="btn-proximo">Logar</button></a>
+    </main>
+
+
+    <footer class="cabecalho">
+        <a href="promocoes.html"><button class="cabecalho-menu"><img src="img/promocoes.svg"
+                    class="imgsvg"></button><i></i></a>
+        <a href="cadastro.html"><button class="cabecalho-menu"><img src="img/cadastro.svg"
+                    class="imgsvg"></button><i></i></a>
+        <a href="planos.html"><button class="cabecalho-menu"><img src="img/planos.svg"
+                    class="imgsvg"></button><i></i></a>
+        <a href="contato.html"><button class="cabecalho-menu"><img src="img/telephone.svg"
+                    class="imgsvg"></button><i></i></a>
+    </footer>
+</body>
+
 </html>

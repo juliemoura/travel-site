@@ -24,6 +24,11 @@ ul li{
     width: 15%;
 }
 
+.preco{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
 .next{
     margin-bottom: 3rem;
     margin-top: -11rem;

@@ -180,3 +180,16 @@ main {
     font-family: 'Montserrat', sans-serif;
 
 }
+.botao-lembrete{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    width: 70%;
+    background-color: #443d3d;
+    padding: 13px 48px; /*aumenta o tamanho da caixinha*/
+    align-items: center;
+    color: #fefefe;
+    border: none;
+    box-shadow: 3px 3px 3px #000000;
+    font-family: 'Montserrat', sans-serif;
+
+}
