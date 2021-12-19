@@ -17,9 +17,9 @@
 
 .numero{
     text-align: center;
-    color: #9b6e64;
+    color: var(--num-color);
     font-size: 1.1rem;
-    font-weight: bolder;
+    font-weight: bold;
     padding-bottom: .5rem;
 }
 

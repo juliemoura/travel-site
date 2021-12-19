@@ -14,6 +14,9 @@ const initialColors = {
     svgColor: getStyle(html, "--svg-color"),
     svgFundo: getStyle(html, "--svg-fundo"),
     btnColor: getStyle(html, "--btn-color"),
+    artColor: getStyle(html, "--art-color"),
+    numColor: getStyle(html, "--num-color"),
+
 }
 
 const darkMode = {
@@ -21,9 +24,11 @@ const darkMode = {
     colorText: "#FEFEFE", 
     inputColor: "#333333",
     navColor: "#000000",
-    svgColor: "#FEFEFE",
+    svgColor: "#D3D3D3",
     svgFundo: "#000000",
-    btnColor: "#000000"
+    btnColor: "#000000",
+    artColor: "#211b15",
+    numColor: "#211b15"
 }
 
 const transformKey = key => 
