@@ -23,7 +23,7 @@ article{
     box-sizing: border-box;
     border-radius: 30px;
     box-shadow: 2px 2px 2px #000000;
-    background-color: #fefefe;
+    background-color: var(--art-color);
 }
 
 hr{
