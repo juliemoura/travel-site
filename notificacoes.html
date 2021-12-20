@@ -29,11 +29,19 @@
     </header>
 
     <main>
-        <h1 class="notificacao">Notificações</h1>
+        <h1 class="notificacao">Lembretes</h1>
         <article>
-            <label for="email" class="titulo-lembrete">Adicione um lembrete</label>
-            <input type="e-mail" id="email" class="input-lembrete" required>
-            <button class="botao-lembrete">Adicionar</button>
+            <form class="form" action="">
+                <input class="input-lembrete" type="text" data-form-input>
+                <button class="botao-lembrete" data-form-button> Novo Item </button>
+              </form>
+        
+            <div class="lista">
+                <ul class="list" data-list>
+                
+                </ul>
+            </div>
+              
         </article>
 
 
@@ -47,7 +55,7 @@
             <a href="perfil.html"><button class="cabecalho-menu"><img src="img/perfil.svg"
                         class="imgsvg"></button><i></i></a>
         </footer>
-
+        <script src="js/lista.js"></script>
 </body>
 
 </html>

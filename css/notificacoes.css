@@ -15,7 +15,7 @@ article{
     box-shadow: 3px 3px 3px #000000;
 }
 
-ul li{
+ul{
     display: inline-block;
 }
 
@@ -54,4 +54,34 @@ hr{
     margin-top: 0rem;
     margin-bottom: 3rem;
     margin-left: 2rem;
+}
+
+
+.check-button, .deleta-button{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 0px;
+    width: 47%;
+    background-color: var(--btn-color);
+    padding: 9px 9px;
+    align-items: center;
+    color: #fefefe;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4px;
+}
+
+.lista{
+    align-items: center;
+    margin-left: 3.3rem;
+    margin-right: -7rem;
+}
+
+.list{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.task.done{
+    text-decoration: line-through;
 }
