@@ -40,6 +40,10 @@ hr{
     margin-left: 2rem;
 }
 
+input{
+    color: #fefefe;
+}
+
 .input-lembrete{  
 	display: block; /*bota tudo embaixo do outro*/
 	padding: 10px 25px; /*aumenta o tamanho da caixinha*/
