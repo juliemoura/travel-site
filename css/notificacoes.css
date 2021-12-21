@@ -7,7 +7,7 @@
 }
 
 article{
-    background: #fefefe;
+    background: var(--art-color);
     padding: 2rem;
     border-radius: 30px;
     display: inline-block;
@@ -48,7 +48,7 @@ hr{
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color: #fefefe;
+    background-color: var(--art-color);
     border-color: #000000;
     text-align: center;
     margin-top: 0rem;
@@ -89,4 +89,5 @@ hr{
 .content{
     margin-top: 2rem;
     font-weight: bold;
+    color: var(--svg-color);
 }
