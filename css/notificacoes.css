@@ -85,3 +85,8 @@ hr{
 .task.done{
     text-decoration: line-through;
 }
+
+.content{
+    margin-top: 2rem;
+    font-weight: bold;
+}
